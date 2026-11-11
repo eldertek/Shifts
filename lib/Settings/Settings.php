@@ -93,12 +93,13 @@ class Settings{
 
 	/**
 	 * @param string $AppName
+	 * @param IConfig|null $config
 	 */
-	public function __construct(string $AppName) {
+	public function __construct(string $AppName, ?IConfig $config = null) {
 
 		$this->appName = $AppName;
 
-		$this->config = \OC::$server->getConfig();
+		$this->config = $config ?? \OCP\Server::get(IConfig::class);
 	}
 
 	/**

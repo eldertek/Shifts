@@ -30,7 +30,7 @@ class AdminSettings implements ISettings {
 	 * @return TemplateResponse
 	 */
 	public function getForm() : TemplateResponse{
-		$app = \OC::$server->query(Application::class);
+		$app = \OCP\Server::get(Application::class);
 		$container = $app->getContainer();
 		return $container->query(SettingsController::class)->index();
 	}
