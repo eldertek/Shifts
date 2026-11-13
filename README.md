@@ -54,3 +54,8 @@ Nextcloud translation tool: https://github.com/nextcloud/docker-ci/tree/master/t
 ## Documentation
 
 * [Admin documentation](docs/README.md) (installation, configuration, troubleshooting)
+
+## Commercial Support & Custom Integration
+
+Need custom features, enterprise integration, or priority support?
+Maintained by **[Eclipse Technology](https://eclipse-technology.eu)** ([contact@eclipse-technology.eu](mailto:contact@eclipse-technology.eu)).
